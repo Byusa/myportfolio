@@ -41,7 +41,10 @@ class Resume extends Component {
                     startYear={2016}
                     endYear={2020}
                     schoolName="McGill University"
-                    schoolDescription="Computer Science Major"/>
+                    schoolDescription="Computer Science Major"
+                    relatedCourses="Related Courses: Algorithms and Data Structures, Software System, Operating System, Software
+                    Design, Modern Game Development,Programming languages and paradigms, Machine Learning, Networking, Cloud Computing.
+                    "/>
                     <hr style={{borderTop: '3px solid #e22947'}}/>
 
                     <h2>Experience </h2>
@@ -59,7 +62,15 @@ class Resume extends Component {
                         jobName="Explore Intern (Software Engineer And Program Manager)"
                         jobDescription="I implemented an extension (a WPF app using XAML and C#) 
                         for Visual Studio to facilitate blind and visually impaired programmers in coding using Visual Studio."
-                        /> 
+                    /> 
+                    <Experience
+                        startYear="06/2017"
+                        endYear="08/2017"
+                        CompanyName="​Pivot Access - Kigali, Rwanda"
+                        jobName="Software Engineer Intern"
+                        jobDescription="Contributed to the creation of a software that prints receipts for prepaid Cash Power on a POS
+                        and Developed an android and IOS app for easy money transfer"
+                    /> 
                     <hr style={{borderTop: '3px solid #e22947'}}/>
 
                     <h2> Skills</h2>
