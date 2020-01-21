@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, CardText, Button, CardMenu, IconButton } from 'react-mdl';
-import { Link } from 'react-router-dom';
+import { Link, Route } from 'react-router-dom';
 
 
 class Projects extends Component {
@@ -23,8 +23,12 @@ class Projects extends Component {
                             This project is about buying and selling products online. People can either buy products or can create a store and sell products.
                     </CardText>
                         <CardActions border>
-                            <Link colored to="https://github.com/Byusa/DollarStores"> Github</Link>
-                            <Button colored>Website</Button>
+                            <a href="https://github.com/Byusa/DollarStores" target="_blank">
+                                <Button colored>Github</Button>
+                            </a>
+                            <a href="https://dollarstores.netlify.com" target="_blank">
+                                <Button colored>Website</Button>
+                            </a>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name="share" />
@@ -70,7 +74,7 @@ class Projects extends Component {
             );
         } else if (this.state.activeTab === 1) {
             return (
-                <div className="projects-grid"> 
+                <div className="projects-grid">
                     {/*Project 1*/}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                         <CardTitle style={{
@@ -134,7 +138,7 @@ class Projects extends Component {
                             background: 'url(https://i.ytimg.com/vi/UUWgQuskEr0/maxresdefault.jpg) center / cover'
                         }}>A Game Project </CardTitle>
                         <CardText>
-                        Maze generator
+                            Maze generator
                     </CardText>
                         <CardActions border>
                             <Button colored>Github</Button>
