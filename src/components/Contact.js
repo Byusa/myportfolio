@@ -13,10 +13,9 @@ class Contact extends Component {
                             alt="avatar"
                             style={{ height: '250px' }} />
                         <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
-                            Serge Jabo Byusa is currently majoring in Computer Science at McGill University and a Microsoft Intern. He is passionate about programming, the creation of imaginary ideas and solving problems.
-                            He is also a Game Developer and an web/App Developer has participated in Hackathons.
-                            He is a coding/programming oriented person and he is looking forward to working in IoT, cloud computing, compiler design or machine learning company. His objective is to obtain a technical position in a software company utilizing his technical expertise, relevant experience, and problem-solving skills.
-                            He also dreams of making a big invention in cloud computing and machine learning, and also believes that robots can be taken to a new high level that is so helpful to people in any society.
+                        I am a full-stack app developer with a Computer Science degree from McGill University graduate who is passionate about programming, the creation of imaginary ideas, and solving problems.
+                        I am a coding/programming oriented person who is looking forward to working in IoT, cloud computing, application development, networking, or machine learning company. My objective is to obtain a technical position in a software company utilizing my technical expertise, relevant experience, and problem-solving skills.
+                        I dream of making a big invention in cloud computing and machine learning and also believe that machine learning can be taken to a new high level that is so helpful to people in any society. 
                         </p>
                     </Cell>
                     <Cell col={6}>

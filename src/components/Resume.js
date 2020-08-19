@@ -23,14 +23,12 @@ class Resume extends Component {
                     <p> Fluent in ​Java, C#, C, OCaml, Python, bash, MIPS Assembly and C++, ​Web development (​ HTML, CSS, Javascript, and XAML​) and I have experience with Linux OS. I am also experienced with ​game development​ and ​Xamarin app development ​and​ React Native. </p>
                     <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
 
-                    <h5> Address</h5>
-                    <p> 3464 Hutchison Street</p>
+                    
                     <h5>Phone</h5>
                     <p>4389266506</p>
                     <h5>Email</h5>
                     <p>byusa.serge@gmail.com</p>
-                    <h5>Web</h5>
-                    <p>www.SergeJaboByusa.com</p>
+                   
                     <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
                     
                 </Cell>
