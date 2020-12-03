@@ -22,14 +22,14 @@ class Projects extends Component {
                         <CardText>
                             This is a (full stack) web app that allows people to send or receive money to/from Africa and also helps in online payments of services. I used React and firebase.
                             <h6>Test Account</h6>
-                            <h6>username: byusa@gmail.com</h6>
+                            <h6>username: byusaj@gmail.com</h6>
                             <h6>password: testing</h6>
                         </CardText>
                         <CardActions border>
                             <a href="https://github.com/Byusa/eanpay" target="_blank">
                                 <Button colored>Github (Private repo)</Button>
                             </a>
-                            <a href="https://eanpay.netlify.app/" target="_blank">
+                            <a href="https://eanpay20.netlify.app/" target="_blank">
                                 <Button colored>Website</Button>
                             </a>
                         </CardActions>
@@ -52,7 +52,7 @@ class Projects extends Component {
                         </CardText>
                         <CardActions border>
                             <a href="https://github.com/Byusa/staysafestore" target="_blank">
-                                <Button colored>Github (Private repo)</Button>
+                                <Button colored>Github (Public repo)</Button>
                             </a>
                             <a href="https://safeshop.netlify.app/" target="_blank">
                                 <Button colored>Website</Button>
